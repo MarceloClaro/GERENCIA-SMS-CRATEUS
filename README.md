@@ -53,7 +53,8 @@ A plataforma é modular e abrange diversas áreas da gestão clínica:
 A arquitetura do projeto foi pensada para ser modular, escalável e de fácil manutenção, mesmo sendo uma aplicação client-side.
 
 -   **Gerenciamento de Estado Global (React Context API)**:
-    -   O coração da aplicação é o `AppContext.tsx`. Ele funciona como um *store* centralizado que provê um estado global para toda a árvore de componentes.
+    -   O coração da aplicação é o `AppContext.tsx`.
+    -   Ele funciona como um *store* centralizado que provê um estado global para toda a árvore de componentes.
     -   Ele é responsável por:
         1.  Manter o estado de todas as entidades de dados (pacientes, agendamentos, etc.).
         2.  Fornecer todas as funções de manipulação de dados (CRUD) que interagem com o `utils/db.ts`.
